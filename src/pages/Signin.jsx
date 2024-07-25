@@ -2,7 +2,7 @@ import { useState } from "react";
 import GoogleIcon from "@mui/icons-material/Google";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 import VisibilityOffOutlinedIcon from "@mui/icons-material/VisibilityOffOutlined";
-import { auth, db } from "../firebase/firebase";
+import { auth, db } from "../firebase/firebase.js";
 import {
 	GoogleAuthProvider,
 	signInWithEmailAndPassword,
