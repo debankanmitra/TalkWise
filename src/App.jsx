@@ -3,10 +3,12 @@ import { AuthContext } from "./contexts/AuthContext.jsx";
 import { Navigate, Route, Routes } from "react-router-dom";
 import icon from "./assets/images/icon.png";
 import loader from "./assets/images/puff.svg";
-import Signin from "./pages/Signin.jsx";
+// import Signin from "./pages/Signin.jsx";
 import Signup from "./pages/Signup.jsx";
 import Home from "./pages/Home.jsx";
 import PropTypes from "prop-types";
+// import Signinpage from "./pages/Signinpage.jsx";
+import Signin from "./pages/Signin.jsx";
 
 const App = () => {
 	const { currentUser, loading } = useContext(AuthContext);
