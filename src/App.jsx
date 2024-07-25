@@ -9,6 +9,7 @@ import Home from "./pages/Home.jsx";
 import PropTypes from "prop-types";
 // import Signinpage from "./pages/Signinpage.jsx";
 import Signin from "./pages/Signin.jsx";
+import Sidebarcard from "./components/Common/Sidebarcard.jsx";
 
 const App = () => {
 	const { currentUser, loading } = useContext(AuthContext);
@@ -43,6 +44,7 @@ const App = () => {
 			/>
 			<Route path="/signin" element={<Signin />} />
 			<Route path="/signup" element={<Signup />} />
+			<Route path="/sidebar" element={<Sidebarcard />} />
 			<Route path="/*" element={<Navigate to="/" />} />
 		</Routes>
 	);
