@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "./contexts/AuthContext.jsx";
 import { Navigate, Route, Routes } from "react-router-dom";
-import icon from "./assets/images/icon.png";
+import icon from "./assets/images/chat.png";
 import loader from "./assets/images/puff.svg";
 // import Signin from "./pages/Signin.jsx";
 import Signup from "./pages/Signup.jsx";
@@ -24,7 +24,7 @@ const App = () => {
 			<div className="bg-slate-100 min-h-screen flex justify-center items-center text-center flex-col">
 				<div className="flex gap-4 items-center mb-8">
 					<img src={icon} className="w-10" />
-					<h1 className="font-black text-slate-700 text-2xl">AnsariChat</h1>
+					<h1 className="font-black text-slate-700 text-2xl">TalkWise</h1>
 				</div>
 				<img src={loader} alt="Loader" />
 			</div>
