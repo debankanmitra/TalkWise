@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const Search = ({ searchKeyword, onSearchChange }) => {
 	return (
-		<div className="search border-b border-slate-200 h-16 flex">
+		<div className="search h-16 flex">
 			<div className="flex items-center gap-2 px-4 text-sm py-2 m-2 bg-gray-100 focus-within:shadow-lg w-full rounded-xl">
 				<SearchIcon className="w-20 h-auto text-slate-500" />
 				<input

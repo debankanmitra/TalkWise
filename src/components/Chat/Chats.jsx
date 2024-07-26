@@ -40,7 +40,7 @@ const Chats = ({ selectedUser }) => {
 	};
 
 	return (
-		<div className="chats p-4 h-[calc(100vh-128px)] overflow-y-auto bg-slate-200">
+		<div className="chats p-4 h-[calc(100vh-128px)] overflow-y-auto bg-slate-100">
 			{messages.map((message) => {
 				return (
 					<div

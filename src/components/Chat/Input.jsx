@@ -75,7 +75,7 @@ const Input = ({ selectedUser }) => {
 	};
 
 	return (
-		<div className="bg-slate-100 h-16 border-t border-slate-200 flex items-center px-8 gap-4">
+		<div className="bg-slate-100 h-28 border-t border-slate-200 flex items-center px-8 gap-4">
 			<label htmlFor="file">
 				<AttachFileIcon
 					className="text-gray-600 w-200 text-4xl rotate-45 cursor-pointer"
@@ -85,6 +85,7 @@ const Input = ({ selectedUser }) => {
 			<input
 				type="file"
 				id="file"
+				className="outline-none"
 				style={{ display: "none" }}
 				accept="image/*"
 				onChange={handleImageChange}
@@ -98,7 +99,7 @@ const Input = ({ selectedUser }) => {
 			<div className="flex-1">
 				<input
 					type="text"
-					className="w-full rounded-lg h-11 bg-white shadow px-4"
+					className="w-full rounded-lg h-11 bg-white shadow px-4 outline-none"
 					placeholder="Type something..."
 					value={message}
 					onChange={(e) => setMessage(e.target.value)}

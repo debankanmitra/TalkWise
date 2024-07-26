@@ -8,7 +8,7 @@ const MainContent = ({ selectedUser }) => {
 	return (
 		<>
 			{selectedUser ? (
-				<div className="relative">
+				<div className="h-full">
 					<ChatPartnerHeader user={selectedUser} />
 					<Chats selectedUser={selectedUser} />
 					<Input selectedUser={selectedUser} />
