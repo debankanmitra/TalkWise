@@ -1,16 +1,15 @@
-/* eslint-disable no-undef */
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-	apiKey: process.env.FIREBASE_API_KEY,
-	authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-	projectId: process.env.FIREBASE_PROJECT_ID,
-	storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-	messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-	appId: process.env.FIREBASE_APP_ID,
+	apiKey: "AIzaSyBtV-QDmuRr3HbExGlAFbt8pcd1_EdGHCM",
+	authDomain: "talkwise-c6f44.firebaseapp.com",
+	projectId: "talkwise-c6f44",
+	storageBucket: "talkwise-c6f44.appspot.com",
+	messagingSenderId: "439748242667",
+	appId: "1:439748242667:web:30d19dbbaa582129e9e2ae"
   };
 
 export const app = initializeApp(firebaseConfig);
